@@ -6,7 +6,7 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
-
+/* 
 .title {
   text-align: center;
   text-transform: capitalize;
@@ -23,4 +23,4 @@ body {
   display: block;
   width: 200px;
   margin: 1rem auto;
-}
+} */
