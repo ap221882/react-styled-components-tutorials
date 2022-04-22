@@ -1,11 +1,15 @@
 import React from 'react';
 
-import Loader from './components/Loader';
+import { HipsterButton } from './components/Buttons';
+
 const App = () => {
   return (
     <div style={{ padding: '2rem' }}>
-      <h2>animation example</h2>
-      <Loader />
+      <HipsterButton>Click me</HipsterButton>
+      <HipsterButton as='a' href='https://www.github.com/ap221882/'>
+        Click me
+      </HipsterButton>
+      <HipsterButton>Click me</HipsterButton>
     </div>
   );
 };
