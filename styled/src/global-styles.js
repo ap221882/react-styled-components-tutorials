@@ -1,4 +1,6 @@
-/* :root {
+import { createGlobalStyle } from 'styled-components';
+
+const GlobalStyles = createGlobalStyle`:root {
   --mainBorder: 1px solid red;
 }
 
@@ -10,13 +12,7 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-} */
-/* 
-.title {
-  text-align: center;
-  text-transform: capitalize;
 }
-
 .btn {
   background-color: rgb(46, 174, 116);
   color: #fff;
@@ -27,5 +23,7 @@ body {
   padding: 0.25rem;
   display: block;
   width: 200px;
-  margin: 1rem auto;
-} */
+  margin: 1rem auto;}
+`;
+
+export default GlobalStyles;

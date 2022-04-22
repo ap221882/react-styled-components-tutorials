@@ -1,14 +1,13 @@
-import styled from 'styled-components';
-import BasicTitle from './components/BasicTitle';
-import { DefaultButton, HipsterButton } from './components/Buttons';
-import ComplexTitle from './components/ComplexTitle';
+import React from 'react';
 
-function App() {
+import Loader from './components/Loader';
+const App = () => {
   return (
     <div style={{ padding: '2rem' }}>
-      <ComplexTitle title='more complex title' />
+      <h2>animation example</h2>
+      <Loader />
     </div>
   );
-}
+};
 
 export default App;
